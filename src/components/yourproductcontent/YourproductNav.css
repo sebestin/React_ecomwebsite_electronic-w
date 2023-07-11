@@ -1,0 +1,528 @@
+.firstsection-sbname {
+  font-weight: 500;
+  font-size: 12px;
+  color: #aaaaa8;
+}
+
+.firstsectio-imgsc {
+  width: 75%;
+  background: black;
+  border-radius: 27.5825px;
+  border: 1.4px solid;
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .firstsectio-imgsc {
+    width: 81%;
+  }
+  .firstsectio-txt1 {
+    font-size: 13px;
+  }
+}
+
+.firstsectio-txt1 {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+}
+
+.firstsectio-txt2 {
+  color: #aaaaa8;
+  text-align: left;
+  font-size: 12px;
+}
+@media (min-width: 375px) and (max-width: 420px) {
+  .firstsectio-txt2 {
+    font-size: 9px;
+  }
+}
+.firstsectio-search {
+  display: flex;
+  gap: 8px;
+  width: 70%;
+  height: 35px;
+  background: #f7f7f4;
+  border: 1.5px solid #dbdbdb;
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.firstsectio-textsrcnews {
+  display: flex;
+  gap: 8px;
+  width: 865px !important;
+  height: 35px;
+  background: #f7f7f4;
+  border: 1.5px solid #dbdbdb;
+  border-left-color: transparent;
+  border-right-color: transparent;
+outline: none;
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .logosection-srchsection {
+  } */
+
+.logosection-cmnav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1800px;
+  margin: 0px auto;
+  padding: 0px 25px;
+  align-items: center;
+  gap: 10px;
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .logosection-cmnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 770px) {
+  .logosection-cmnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1124px) {
+  .samtextdiv {
+    text-align: center !important;
+  }
+  .dash-div {
+    display: flex;
+    flex-direction: row;
+  }
+  .table-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    color: #221f1f;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+}
+.logosection-srcicon {
+  margin-left: 10px;
+}
+
+input.firstsectio-textsrc::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #aaaaa8;
+  opacity: 1; /* Firefox */
+}
+
+.logosection-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+.searchbtn {
+  background: #34a3f1;
+  margin-left: 10px;
+  height: 36px;
+  width: 100px;
+}
+.cardtext {
+  height: 40;
+}
+.carddiv {
+  width: 200px;
+  height: 100px;
+  border-radius: 50;
+}
+.moneydiv {
+  box-sizing: border-box;
+
+  width: auto;
+  height: 51px;
+
+  background: #ffffff;
+  border: 1.77712px solid #dbdbdb;
+  box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+  border-radius: 9px;
+  padding: 7px 16px 6px 16px;
+}
+.alltimerevinediv {
+  box-sizing: border-box;
+  margin-left: 10px;
+  width: auto;
+  height: 61px;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 1.77712px solid #dbdbdb;
+  box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+  border-radius: 9px;
+  padding: 7px 16px 6px 16px;
+}
+.monthlyrevenuediv {
+  box-sizing: border-box;
+
+  width: auto;
+  height: 61px;
+
+  background: #ffffff;
+  border: 1.77712px solid #dbdbdb;
+  box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+  border-radius: 9px;
+  padding: 7px 16px 6px 16px;
+}
+
+.dolar {
+  width: 74px;
+  height: 31px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #30d988;
+  margin-bottom: 0px;
+}
+.arrowicon {
+  margin-top: 6px;
+  margin-left: 6px;
+  color: #30d988;
+}
+.arrowdownicon {
+  margin-top: 0px;
+  margin-left: 6px;
+  color: red;
+}
+
+.availableheader {
+  width: auto;
+  height: 11px;
+
+  top: 10px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 11px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.revenueeheader {
+  width: auto;
+  height: 11px;
+
+  top: 10px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 11px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.Monthlyheader {
+  width: auto;
+  height: 11px;
+
+  top: 10px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 11px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+
+  
+  .logosection-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  .searchbtn {
+    background: #34a3f1;
+    margin-left: 10px;
+    height: 36px;
+    width: 100px;
+  }
+  .cardtext {
+    height: 40;
+  }
+  .carddiv {
+    width: 200px;
+    height: 100px;
+    border-radius: 50;
+  }
+  .moneydiv {
+    box-sizing: border-box;
+  
+    width: auto;
+    height: 51px;
+  
+    background: #ffffff;
+    border: 1.77712px solid #dbdbdb;
+    box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+    border-radius: 9px;
+    padding: 7px 16px 6px 16px;
+  }
+  .alltimerevinediv {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: auto;
+    height: 61px;
+    margin-right: 10px;
+    background: #ffffff;
+    border: 1.77712px solid #dbdbdb;
+    box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+    border-radius: 9px;
+    padding: 7px 16px 6px 16px;
+  }
+  .monthlyrevenuediv {
+    box-sizing: border-box;
+  
+    width: auto;
+    height: 61px;
+  
+    background: #ffffff;
+    border: 1.77712px solid #dbdbdb;
+    box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+    border-radius: 9px;
+    padding: 7px 16px 6px 16px;
+  }
+  
+  .dolar {
+    width: 74px;
+    height: 31px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+  
+    color: #30d988;
+  }
+  .arrowicon {
+    margin-top: 6px;
+    margin-left: 6px;
+    color: #30d988;
+  }
+  .arrowdownicon {
+    margin-top: 6px;
+    margin-left: 6px;
+    color: red;
+  }
+  
+  .availableheader {
+    width: auto;
+    height: 11px;
+  
+    top: 10px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 11px;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+  
+    color: #000000;
+  }
+  .revenueeheader {
+    width: auto;
+    height: 11px;
+  
+    top: 10px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+  
+    color: #000000;
+  }
+  .Monthlyheader {
+    width: auto;
+    height: 11px;
+  
+    top: 10px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+  
+    color: #000000;
+  }
+  
+  /* .sidebardiv {
+    float: left;
+    height: 60vh;
+    width: 20%;
+    margin-top: 20px;
+    flex-direction: column;
+    margin-left: 24px;
+    width: 232px;
+    background: #ffffff;
+    border: 1.77712px solid #dbdbdb;
+    box-shadow: 0px 6.54562px 22.9097px rgba(0, 0, 0, 0.07);
+    border-radius: 22.3037px;
+  } */
+
+.samtextdiv {
+  text-align: initial;
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .logosection-text {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  .arrowdownicon {
+    /* margin-top: -14px; */
+    margin-left: 6px;
+    color: red;
+  }
+  .samtextdiv {
+    text-align: center !important;
+  }
+}
+.samh1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sam-subtxt {
+  font-weight: 500;
+  font-size: 14px;
+  color: #8695a0;
+}
+.span {
+  display: inline-block;
+  text-indent: 50px;
+  justify-content: flex-start;
+  vertical-align: middle;
+  line-height: 20px;
+  text-align: justify;
+}
+.logoutdiv {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  height: 20vh;
+  width: 232px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+  background: #ffffff;
+  border: 1.77712px solid #dbdbdb;
+  box-shadow: 0px 6.54562px 22.9097px rgba(0, 0, 0, 0.07);
+  border-radius: 22.3037px;
+}
+.datediv {
+  background: #f7f7f4;
+  border: 1.48528px solid #dbdbdb;
+  border-radius: 5.94112px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .datediv {
+    background: #f7f7f4;
+    border: 1.48528px solid #dbdbdb;
+    border-radius: 5.94112px;
+    margin-left: 10px;
+    height: 30px;
+    width: 86%;
+  }
+}
+
+.dash-div {
+  display: flex;
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .dash-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.datepickerdiv {
+  border-color: red;
+  border: none;
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .firstsectio-textsrcnews {
+    display: flex;
+    gap: 8px;
+    width: 139px !important;
+    height: 35px;
+    background: #f7f7f4;
+    border: 1.5px solid #dbdbdb;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 6px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+  .firstsectio-textsrcnews {
+    width: 500px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1124px) {
+  .firstsectio-textsrcnews {
+    width: 138px !important;
+  }
+ 
+  .listtext {
+    font-size: 19px;
+  }
+}
+
+
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+  .firstsectio-textsrcnews {
+    width: 490px !important;
+  }
+}

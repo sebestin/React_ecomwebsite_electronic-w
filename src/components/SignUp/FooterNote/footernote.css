@@ -1,0 +1,81 @@
+.footernote-mainn {
+  /* width: 800px; */
+  /* display: flex; */
+  max-width: 900px;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .footernote-mainn {
+      max-width: 700px;                       
+}
+}
+.footernote-butns {
+  gap: 10px;
+  display: flex;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .footernote-butns {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.footernote-bodys {
+  display: flex;
+  align-items: center;
+  border-radius: 6.1274px;
+  gap: 20px;
+  
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .footernote-bodys {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    flex-direction: column;
+    gap: 10px;
+ 
+  }
+}
+
+.buttonsection-butcook {
+  width: 161px;
+  border-radius: 5px;
+  font-weight: 300;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  background: #34a3f1;
+  box-shadow: 0px 8.28492px 16.5698px rgb(32 114 172 / 8%);
+  border-radius: 4.34395px;
+  height: 50.49px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .buttonsection-butcook {
+    width: 150px;
+  }
+}
+
+.foot-text {
+  text-align: left;
+  color: #aaaaa8;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .foot-text {
+    text-align: center;
+    color: #aaaaa8;
+  }
+}
+
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  outline: 0;
+  background: #ffffff;
+  border: 1.41111px solid #dbdbdb;
+  box-shadow: 0px 5.1975px 18.1913px rgb(0 0 0 / 7%);
+  border-radius: 8.1274px !important;
+}

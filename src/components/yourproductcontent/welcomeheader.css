@@ -1,0 +1,131 @@
+.samtextdiv2 {
+    padding-top: 20px;
+      text-align: initial;
+      margin-block-start: auto;
+      margin-right: 50px;
+  }
+  .samh2 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .welcometext {
+    display: inline-block;
+    justify-content: flex-start;
+    vertical-align: middle;
+    line-height: 20px;
+    text-align: justify;
+    color: #8695A0;
+  }
+  .listtext{
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 34px;
+}
+.addmoretext{
+  width: 26%;
+
+  background: #FFFFFF;
+  border: 1.77712px solid #DBDBDB;
+  box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+  height: 20px;
+  padding: 10px 24px 13px 19px;
+  border-radius: 12px;
+  margin-top: 34px;
+  margin-bottom: 12px;
+  color: #34A3F1;
+  height: auto;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+@media (min-width:375px )and (max-width:420px){
+  .samh2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.welcometext {
+    font-size: 16px;
+    padding-left: 7px;
+    padding-top: 12px;
+    padding-bottom: 21px;
+}
+.listtext{  
+
+  display: contents;
+
+}
+.addmoretext {
+  width: 90%;
+  margin-bottom: 18px;
+}
+
+}
+
+@media (min-width:425px )and (max-width:500px){
+  .samh2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.welcometext {
+  font-size: 18px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 32px;
+}
+.addmoretext {
+  width: 78%;
+  margin-left: 46px;
+  margin-bottom: 10px;
+  padding: 16px 18px 14px 8px;
+  
+}
+.listtext{  
+  display: contents;
+}
+}
+
+@media (min-width:1024px )and (max-width:1124px){
+  .addmoretext {
+    width: 31%;
+    background: #FFFFFF;
+    border: 1.77712px solid #DBDBDB;
+    box-shadow: 0px 6.54562px 22.9097px rgb(0 0 0 / 7%);
+    height: 20px;
+    padding: 10px 24px 13px 19px;
+    border-radius: 12px;
+    margin-top: 34px;
+    color: #34A3F1;
+    height: auto;
+    font-size: 14px;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+}}
+
+@media (min-width:768px )and (max-width:800px){
+  .addmoretext {
+    width: 79%;
+    margin-bottom: 28px;
+    margin-left: 128px;
+    padding: 14px 88px 16px 91px;
+}
+.samtextdiv2 {
+  padding-top: 20px;
+
+  text-align: center;
+  margin-left: 71px;
+
+}
+.listtext {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 19rem;
+  margin-top: 34px;
+}
+}

@@ -1,0 +1,35 @@
+.productmod-bdy1 {
+    width: auto !important;
+  }
+  
+  .prodmod-cardmain1 {
+    width: auto;
+    border: none;
+  }
+  
+  .prodmod-logo1 {
+    width: 30%;
+  }
+  
+  .productmod-crdtexts1 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  
+  .prodmod-price1{
+      font-size: 25px;
+      font-weight: 500;
+  }
+  .buttonsection-butcrd2 {
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 300;
+    border: none;
+    background: #34a3f1;
+  }
+  .listcard-flxx2{
+    display: flex;
+    justify-content:space-between;
+    /* align-items:center; */
+}

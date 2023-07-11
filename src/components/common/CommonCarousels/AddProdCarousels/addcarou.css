@@ -1,0 +1,26 @@
+.newcaroi {
+  margin: 0px auto;
+}
+
+.carousel.carousel-slider {
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.addprod-secondstep {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.addprod-sign {
+  background: #f7f7f4;
+  border: 1.24824px solid #dbdbdb;
+  border-radius: 4.99297px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 8.44881px 29.8846px;
+}

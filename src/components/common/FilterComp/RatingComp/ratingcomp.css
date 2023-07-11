@@ -1,0 +1,31 @@
+.rating-cpflx{
+    gap: 10px !important;
+    /* justify-content: space-between; */
+}
+
+.rating-strnum{
+    gap: 9px;
+}
+
+.rating-txttr{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+}
+.ratin-stars{
+    border-radius: 0.25em;
+    background: #FFF6DA;
+}
+.ratin-stars:checked {
+    background-color: #FFCC2E;
+    border: 1.08393px solid #DBDBDB;
+}
+.form-check-input:checked {
+    background-color: #FFCC2E;
+    border-color: #DBDBDB;
+    /* background: #FFF6DA; */
+}
+
+
+
+

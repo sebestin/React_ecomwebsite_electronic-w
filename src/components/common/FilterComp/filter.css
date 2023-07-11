@@ -1,0 +1,92 @@
+.filter-main {
+  background: #ffffff;
+  border: 1.45259px solid #dbdbdb;
+  box-shadow: 0px 5.3503px 18.7261px rgb(0 0 0 / 7%);
+  border-radius: 18.2308px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 19px 10px 19px;
+  width: auto;
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .filter-main{
+    width: auto;
+
+  }
+}
+@media (min-width: 426px) and (max-width: 770px) {
+  .filter-main{
+    width: auto;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1024px) {
+  .filter-main{
+    width: auto;
+  }
+}
+
+.filter-textt {
+  font-size: 18px;
+  color: #221f1f;
+  font-weight: 600;
+  text-align: left;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.filter-chktxt{
+    color: #989BB5;
+    font-size: 14px;
+}
+
+.filter-lftsrc{
+  display: flex;
+  gap: 0px;
+  width: 100% !important;
+  height: 35px;
+  background: #f7f7f4;
+  border: 1.5px solid #dbdbdb;
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 14px 0px 0px;
+  justify-content: space-around;
+}
+
+.filter-leftext{
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  height: 35px;
+  background: #f7f7f4;
+  border: 1.5px solid #dbdbdb;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+  padding:10px; 
+}
+.filter-leftext::placeholder{
+  font-size: 11px;
+  color: #AAAAA8 !important
+}
+.filter-leftext:focus {
+  outline: none !important;
+  border: 1.5px solid #dbdbdb;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.form-check-input:checked[type=checkbox] {
+  /* background-image: url(../../../assets/Icons/goldentick.svg); */
+}

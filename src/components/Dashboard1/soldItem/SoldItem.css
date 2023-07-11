@@ -1,0 +1,64 @@
+.table-heading {
+  margin-bottom: 1.5rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #34a3f1;
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+  .table-heading {
+    font-size: 10px;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px 0px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .table-heading {
+    
+ 
+    display: none;
+  }
+}
+.table-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #221f1f;
+  display: flex;
+}
+
+@media (min-width: 375px) and (max-width: 425px){ 
+.table-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+.item-text{
+  text-align: start;
+}
+
+@media  (min-width: 375px) and (max-width:425px)
+{
+  .item-text {
+    text-align:center;
+  }
+}
+  
+
+.item-datesold{
+  text-align: center;
+}
+
+@media  (min-width: 768px) and (max-width:1020px)
+{
+  .item-datesold {
+    text-align: right;
+  }
+}

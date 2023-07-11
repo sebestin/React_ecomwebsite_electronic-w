@@ -1,0 +1,96 @@
+.cardmains {
+  margin-top: 150px;
+  width: 525px;
+  background: #ffffff;
+  border: 1.52296px solid #dbdbdb;
+  box-shadow: 0px 5.60951px 19.6333px rgba(0, 0, 0, 0.07);
+  border-radius: 23px;
+  padding: 0px 20px 0px 20px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .cardmains {
+    margin-top: 70px;
+  }
+}
+
+.cardmains-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 50px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .cardmains-title {
+    font-size: 30px;
+    margin-top: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+.cardmains-tabss {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .cardmains-tabss {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.buts-ali {
+  background: linear-gradient(90deg, #e43225 -9.9%, #f7971d 106.71%);
+  border-radius: 7px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  gap: 4px;
+}
+.buts-amaz {
+  background: #221f1f;
+  border-radius: 7px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  gap: 4px;
+}
+
+.buts-ebay {
+  background: #0065d2;
+  border-radius: 7px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  gap: 4px;
+}
+
+.cardmains-fmtxt {
+  text-align: left;
+}
+
+.cardmains-txip {
+  background: #f7f7f4;
+}
+
+.buts-singup {
+  background: #34a3f1;
+  box-shadow: 0px 5.90777px 11.8155px rgba(32, 114, 172, 0.08);
+  border-radius: 8px;
+  padding: 8.7694px;
+}
+
+
+.newimg{
+  width: 74px !important;
+  height: 22px !important;
+}
+
+.signups-labelss{
+  color: #565656;
+  font-weight: 400;
+  font-size: 15.2038px;
+  margin-bottom: 0px;
+}

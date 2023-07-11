@@ -1,0 +1,135 @@
+.third-listwrp1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.third-mains {
+  padding: 0px 36px;
+  margin: 0px auto;
+}
+
+.listcard-removetext {
+  font-size: 15px;
+  font-weight: 500;
+  color: #e92828;
+  cursor: pointer;
+}
+.listcard-price1 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1px 7px 15px 22px;
+  float: inline-end;
+  color: #393939;
+}
+.listcard-nametxt1 {
+  font-size: 12px;
+  text-align: left;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid black;
+}
+.listcard-body1 {
+  width: auto;
+  border: 1.11931px solid transparent;
+  border-radius: 16.904px;
+  padding: 10px 10px 10px 10px;
+  margin: 7px 10px;
+
+  min-height: 436px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.listcard-body1:hover {
+  box-shadow: 0px 4.12275px 14.4296px rgba(0, 0, 0, 0.07);
+}
+.listcard-textss1 {
+  font-size: 10px;
+  color: #aaaaa8;
+  text-align: left;
+}
+.listcard-flxx2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serach-wdth1 {
+  display: flex;
+  gap: 27px;
+}
+.card-logo{
+  display: flex;
+}
+.listimg-logo{
+  width: 15% !important;
+}
+.carou-imgl{
+  width: 75% !important;
+  height: 100% !important;
+}
+.images{
+  height: 100% !important;
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+  .listcard-body1 {
+    margin: 0px;
+    width: auto;
+    padding: 10px 13px 10px 10px;
+    box-shadow: 0px 4.12275px 14.4296px rgb(0 0 0 / 10%);
+  }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .listcard-body1 {
+    margin: 0px;
+    width: auto;
+    border: 1.11931px solid #dbdbdb;
+    box-shadow: 0px 4.12275px 14.4296px rgb(0 0 0 / 7%);
+    border-radius: 16.904px;
+  }
+}
+
+@media (min-width: 1021px) and (max-width: 1200px) {
+  .listcard-body1 {
+    min-height: 386px;
+    padding: 10px 5px 10px 5px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1500px) {
+  .listcard-removetext {
+    font-size: 15px;
+    font-weight: 500;
+    color: #e92828;
+    margin-left: 19px;
+    cursor: pointer;
+  }
+  .listcard-body1  {
+    box-shadow: 0px 4.12275px 14.4296px rgba(0, 0, 0, 0.07);
+       }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .third-listwrp1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 367px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+  .third-listwrp1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+@media (min-width: 1021px) and (max-width: 1200px) {
+  .third-listwrp1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    justify-content: center;
+  }
+}

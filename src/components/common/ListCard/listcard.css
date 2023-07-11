@@ -1,0 +1,142 @@
+.cardouter {
+  width: 30%;
+}
+
+.carousel .slide .legend {
+  display: none;
+}
+
+.listcard-body {
+  width: 293px;
+  border: 1.11931px solid transparent;
+  border-radius: 16.904px;
+  padding: 10px 2px 10px 10px;
+  margin: 7px 11px;
+  min-height: 436px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+}
+.listcard-body:hover {
+  box-shadow: 0px 4.12275px 14.4296px rgba(0, 0, 0, 0.07);
+}
+/* .listcard-body :hover{
+  background: red;
+} */
+@media (min-width: 375px) and (max-width: 425px) {
+  .listcard-body {
+    margin: 0px;
+    width: auto;
+    background: #ffffff;
+    border: 1.11931px solid #dbdbdb;
+    box-shadow: 0px 4.12275px 14.4296px rgb(0 0 0 / 7%);
+    border-radius: 16.904px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+  .listcard-body {
+    margin: 0px;
+    width: auto;
+    padding: 10px 13px 10px 10px;
+    box-shadow: 0px 4.12275px 14.4296px rgb(0 0 0 / 10%);
+  }
+}
+@media (min-width: 1021px) and (max-width: 2560px) {
+  .listcard-body {
+    min-height: 386px;
+    padding: 10px 5px 10px 5px;
+    width: auto;
+  }
+}
+.carousel .carousel-status {
+  display: none;
+}
+
+.mover.carousel.slide {
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 15%;
+}
+
+.carousel .slider-wrapper {
+  overflow: hidden;
+  margin: auto;
+  width: 30%;
+  transition: height 0.15s ease-in;
+}
+
+.carousel .thumbs {
+  transition: all 0.15s ease-in;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  list-style: none;
+  white-space: nowrap;
+  display: none;
+}
+.carousel .thumbs-wrapper {
+  margin: 20px;
+  overflow: hidden;
+  display: none;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid black;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+background:none !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid gray !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+  top: 0;
+  color: black;
+  font-size: 26px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.listcard-stars {
+  gap: 5px;
+}
+
+.listcard-textss {
+  font-size: 12px;
+  color: #aaaaa8;
+  text-align: left;
+}
+
+.buttonsection-butcrd {
+  width: 100px;
+  border-radius: 5px;
+  font-weight: 300;
+  border: none;
+  background: #34a3f1;
+}
+@media (min-width: 1021px) and (max-width: 1200px) {
+  .buttonsection-butcrd {
+    width: auto;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+  }
+}
+
+.listcard-flxx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel .control-dots {
+  display: none;
+}
+
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid black;
+}

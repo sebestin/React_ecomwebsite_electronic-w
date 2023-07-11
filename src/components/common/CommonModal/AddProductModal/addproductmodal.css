@@ -1,0 +1,97 @@
+.addprod-mods {
+  width: auto !important;
+  background: #ffffff;
+  border: 1.4px solid #dbdbdb;
+  box-shadow: 0px 5.1975px 18.1913px rgb(0 0 0 / 7%);
+  border-radius: 15.1274px;
+}
+
+.addprod-logimg {
+  border: none;
+}
+
+.addprod-textbox {
+  padding: 8.44881px 29.8846px;
+  gap: 6.9px;
+  width: 100%;
+  height: 42.86px;
+  left: 64.71px;
+  top: 71.43px;
+  background: #f7f7f4;
+  border: 1.24824px solid #dbdbdb;
+  border-radius: 4.99297px;
+}
+
+.addprod-maindiv {
+  gap: 6.9px;
+  width: 100%;
+  height: 42.86px;
+  background: #f7f7f4;
+  border: 1.24824px solid #dbdbdb;
+  border-radius: 4.99297px;
+}
+
+.addprod-search {
+  display: flex;
+  width: 8%;
+  height: 35px;
+  background: #f7f7f4;
+  border: 1.5px solid #dbdbdb;
+  border-left: transparent;
+  border-right: 1.5px solid transparent;
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 21px 0px 0px;
+}
+
+.addprod-textsrc {
+  display: flex;
+  width: auto !important;
+  height: 35px;
+  background: #f7f7f4;
+  border: 1.5px solid #dbdbdb;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 6px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 22%;
+  left: 24%;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.21);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+/* .addproduct-newcaro{
+  color: red;
+} */
+
+.adprodsection {
+  font-family: "Poppins";
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+
+  outline: 0;
+  background: #ffffff;
+  border: 1.41111px solid #dbdbdb;
+  box-shadow: 0px 5.1975px 18.1913px rgb(0 0 0 / 7%);
+  border-radius: 15.1274px;
+}

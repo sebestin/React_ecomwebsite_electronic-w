@@ -1,0 +1,74 @@
+.productmod-bdy {
+  display: flex;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .productmod-bdy {
+    justify-content: center;
+  }
+}
+.prodmod-cardmain {
+  width: 16rem;
+  height: 30rem;
+  border: none;
+  padding: 6px 6px 6px 6px;
+}
+
+.prodmod-logo {
+  width: 30%;
+}
+
+.productmod-crdtexts {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.prodmod-price {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.modalprod-body {
+  width: auto;
+  border: 1.11931px solid transparent;
+  border-radius: 16.904px;
+  padding: 10px 10px 10px 10px;
+  margin: 7px 10px;
+  min-height: 436px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.prodmodduo-bkgs {
+  display: flex;
+  gap: 50px;
+  background: transparent;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .prodmodduo-bkgs {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+
+/* @media (min-width: 375px) and (max-width:375px){
+  .prodmodduo-bkgs {
+    display: flex;
+    gap: 100px;
+    background: transparent;
+  }
+} */
+
+.prodmod-cardtwo {
+  width: 18rem !important;
+  height: 16rem;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .prodmod-cardtwo {
+    width: 17rem !important;
+    height: 16rem;
+    border: none;
+  }
+}

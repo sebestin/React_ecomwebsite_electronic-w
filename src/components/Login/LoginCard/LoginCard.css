@@ -1,0 +1,58 @@
+.cardDiv {
+    margin-top: 225px;
+  border-radius: 18px;
+  width: 350px;
+  background: #ffffff;
+  border: 1.52296px solid #dbdbdb;
+  box-shadow: 0px 5.60951px 19.6333px rgb(0 0 0 / 7%);
+  border-radius: 23px;
+  padding: 0px 10px 20px 10px;
+}
+.textlable {
+  align-items: flex-start;
+}
+.loginbtn {
+  background: #34a3f1;
+}
+.emailtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2038px;
+  line-height: 23px;
+  display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2038px;
+  line-height: 23px;
+  display: flex;
+  color: #565656;
+}
+.logintext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34.8949px;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.forgot-password {
+  text-align: right;
+  color: #34a3f1;
+  text-decoration: none;
+}
+.signupbtn {
+  text-decoration: none;
+  color: #34a3f1;
+}
+.form-control {
+  background: #f7f7f4;
+  border: 1.08599px solid #dbdbdb;
+}
+.navtext {
+  text-decoration: none;
+  color: #34a3f1;
+}

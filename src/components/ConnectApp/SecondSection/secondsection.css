@@ -1,0 +1,19 @@
+.connect-second {
+  padding: 10px;
+  max-width: 600px;
+  background: #ffffff;
+  border: 1.86306px solid #dbdbdb;
+  border-radius: 18px;
+  color: #aaaaa8;
+  margin-top: 100px;
+}
+
+.connect-txt {
+  color: #aaaaa8;
+  display: flex;
+}
+
+.ellipse-imgvs {
+  height: 48px;
+  width: 48px;
+}

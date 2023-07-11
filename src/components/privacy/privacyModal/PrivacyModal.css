@@ -1,0 +1,58 @@
+.dialogDiv{
+    max-width: 1200px;
+}
+.lockimgDiv{
+    width: 80px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cookisbtn{
+  border-color: #fff;
+background: #CECECE;
+margin-right: 30px;
+box-shadow: 0px 8.28492px 16.5698px rgba(32, 114, 172, 0.08);
+border-radius: 4.34395px;
+}
+
+
+.declinebtn{
+    text-decoration: none;
+    color: #34A3F1;
+}
+.footerbtn{
+    display: flex!important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-section{
+    height: 250px;
+    overflow: auto;
+    text-align: left;
+    margin: 20px 10px;
+    padding: 20px 66px;
+    
+}
+
+.main-container{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+ 
+.text-section{
+    height: 250px;
+    overflow: auto;
+    text-align: left;
+    margin: 20px 10px;
+    padding: 0px 0px;
+    
+}
+  }

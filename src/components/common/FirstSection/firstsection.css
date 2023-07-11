@@ -1,0 +1,83 @@
+.logosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px !important;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .logosection {
+    flex-direction: column;
+  }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .logosection {
+    gap: 2px;
+    padding: 0px 10px 0px 10px !important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .logosection {
+    gap: 2px;
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+.buttonsection {
+  gap: 10px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .buttonsection {
+    gap: 2px;
+  }
+}
+.logosection-text {
+  font-weight: 700;
+  font-size: 31.9564px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .logosection-text {
+    font-size: 18px;
+  }
+}
+
+.buttonsection-butsbl {
+  width: 137px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 13.0318px;
+  border: none;
+  background: #34a3f1;
+  box-shadow: 0px 5.90777px 11.8155px rgba(32, 114, 172, 0.08);
+  height:35px
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .buttonsection-butsbl {
+    width: 130px;
+    height: 35px;
+  }
+}
+
+.buttonsection-butstrs {
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 300;
+  border: none;
+  color: #34a3f1;
+  background: transparent;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .buttonsection-butstrs {
+    width: 100px;
+  }
+}
+
+.buttonsection-butstrs:hover {
+  color: white;
+  background: #34a3f1;
+}
+
+.first-mains {
+  max-width: 1800px;
+  margin: 0px auto;
+}
